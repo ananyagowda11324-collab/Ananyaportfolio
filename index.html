@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional Cyber Blue portfolio of Ananya - Software Engineer & Full-Stack Web Architect.">
+  <title>Ananya // Software Engineer & Web Architect</title>
+  
+  <!-- Professional Modern & Cyber Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Silkscreen:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Cyber Blue Design System -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Cyber Scanlines & Holographic Dust -->
+  <div class="cyber-ambient-grid" aria-hidden="true"></div>
+  <div class="cyber-vignette" aria-hidden="true"></div>
+
+  <!-- TOP PROFESSIONAL CYBER HUD NAVIGATION -->
+  <header class="cyber-navbar" id="top-navbar">
+    <div class="nav-wrapper">
+      <!-- Brand & Status Identity -->
+      <a href="#hero" class="cyber-brand">
+        <span class="cyber-logo-icon">◈</span>
+        <div class="brand-details">
+          <span class="brand-title">ANANYA.DEV</span>
+          <span class="brand-status"><span class="status-dot"></span> SYSTEM ONLINE</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="cyber-nav-links" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active"><span class="link-idx">01.</span> OVERVIEW</a>
+        <a href="#about" class="nav-link"><span class="link-idx">02.</span> ABOUT ME</a>
+        <a href="#capabilities" class="nav-link"><span class="link-idx">03.</span> STACK</a>
+        <a href="#contact" class="nav-link"><span class="link-idx">04.</span> CONTACT</a>
+      </nav>
+
+      <!-- CYBER BLUE THEME TOGGLE & CONTROLS -->
+      <div class="cyber-controls">
+        <div class="cyber-toggle-module" id="console-switch-box" title="Cyber Blue Theme Switch (Syncs with Browser Theme)">
+          <div class="module-header">
+            <span class="cyber-led" id="power-led" aria-label="Theme Power LED"></span>
+            <span class="module-label">CYBER PWR</span>
+            <span class="mode-badge" id="theme-source-badge">OS AUTO</span>
+          </div>
+          
+          <div class="module-switch-row">
+            <span class="switch-tag tag-night">NIGHT</span>
+            
+            <!-- Mechanical Cyber Blue Slider -->
+            <button id="theme-toggle-btn" class="cyber-slider-button" type="button" role="switch" aria-checked="true" aria-label="Toggle Night/Day Cyber Theme">
+              <span class="slider-track">
+                <span class="track-plasma-beam"></span>
+                <span class="slider-knob" id="switch-knob">
+                  <span class="knob-line"></span>
+                  <span class="knob-line"></span>
+                  <span class="knob-line"></span>
+                </span>
+              </span>
+            </button>
+
+            <span class="switch-tag tag-day">DAY</span>
+          </div>
+        </div>
+
+        <!-- Audio Feedback Toggle -->
+        <button id="sound-toggle-btn" class="cyber-icon-button" title="Toggle Cyber Audio" aria-label="Toggle Audio Feedback">
+          <span id="sound-icon">🔊</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN HERO SECTION -->
+  <main>
+    <section class="cyber-hero" id="hero">
+      <!-- Background Cyber Wallpaper & Holographic Matrix -->
+      <div class="hero-backdrop" aria-hidden="true">
+        <div class="backdrop-image"></div>
+        <div class="backdrop-matrix-grid"></div>
+        <div class="backdrop-gradient"></div>
+      </div>
+
+      <!-- Corner Telemetry HUD Markers -->
+      <div class="telemetry-corner tl" aria-hidden="true">ENGINEER: ANANYA // DEV_ID: #8080</div>
+      <div class="telemetry-corner tr" aria-hidden="true">SECURITY: ENCRYPTED // TLS 1.3</div>
+
+      <!-- Central Hero Holographic Terminal Card -->
+      <div class="hero-container">
+        <div class="cyber-glass-card">
+          <!-- Glass Card Header -->
+          <div class="card-top-bar">
+            <div class="window-decorations">
+              <span class="deco-box"></span>
+              <span class="deco-box"></span>
+              <span class="deco-box"></span>
+            </div>
+            <div class="window-address">
+              <span class="address-prefix">NODE://</span>
+              <span class="address-url">ANANYA.DEV/SYSTEM_CORE_V3.8</span>
+            </div>
+            <div class="window-chip">CYBER_BLUE</div>
+          </div>
+
+          <!-- Glass Card Body -->
+          <div class="card-content">
+            <!-- Welcome Meta Header -->
+            <div class="welcome-header">
+              <div class="cyber-badge">
+                <span class="badge-spark">⚡</span>
+                <span>SOFTWARE ENGINEER & WEB ARCHITECT</span>
+              </div>
+              <div class="os-readout-box">
+                <span class="os-indicator-text" id="os-theme-readout">[THEME: CYBER_NIGHT // OS AUTO]</span>
+              </div>
+            </div>
+
+            <!-- Welcoming Headline Title -->
+            <div class="hero-heading-group">
+              <span class="hero-intro-text">HELLO WORLD, I'M</span>
+              <h1 class="hero-main-title">
+                <span class="first-name">ANANYA</span>
+                <span class="last-name">DEV</span>
+              </h1>
+              <div class="hero-subtitle-bar">
+                <span class="sub-bracket">[</span>
+                <span class="sub-text">FULL-STACK SOFTWARE ENGINEER & SYSTEM ARCHITECT</span>
+                <span class="sub-bracket">]</span>
+              </div>
+            </div>
+
+            <!-- Refined Professional Tagline -->
+            <p class="hero-tagline">
+              Passionate software engineer building high-impact web applications, scalable backend systems, and modern cybernetic interfaces with clean architecture, algorithmic elegance, and exceptional user experiences.
+            </p>
+
+            <!-- Professional KPI Metrics Bar -->
+            <div class="kpi-metrics-grid" aria-label="Key Performance Indicators">
+              <div class="kpi-card">
+                <span class="kpi-value">100%</span>
+                <span class="kpi-label">CODE PRECISION</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-value">30+</span>
+                <span class="kpi-label">REPOSITORIES & LABS</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-value">99.9%</span>
+                <span class="kpi-label">SYSTEM UPTIME</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-value">&lt;50ms</span>
+                <span class="kpi-label">API LATENCY FOCUS</span>
+              </div>
+            </div>
+
+            <!-- Professional Call-To-Action Button Suite -->
+            <div class="hero-cta-suite">
+              <a href="#about" class="cyber-btn primary-btn" id="btn-about">
+                <span class="btn-glow-bar"></span>
+                <span class="btn-icon">◈</span>
+                <span class="btn-caption">DISCOVER ABOUT ME</span>
+              </a>
+
+              <a href="#contact" class="cyber-btn secondary-btn" id="btn-contact">
+                <span class="btn-glow-bar"></span>
+                <span class="btn-icon">✉</span>
+                <span class="btn-caption">INITIALIZE CONTACT</span>
+              </a>
+
+              <!-- In-Card Cyber Blue Switch Button -->
+              <button class="cyber-btn accent-btn" id="in-card-theme-btn" type="button">
+                <span class="btn-glow-bar"></span>
+                <span class="btn-icon" id="card-theme-icon">⚡</span>
+                <span class="btn-caption" id="card-theme-text">CYBER DAY MODE</span>
+              </button>
+            </div>
+
+            <!-- Diagnostic Telemetry Footer -->
+            <div class="card-footer-telemetry">
+              <div class="telemetry-item">
+                <span class="telemetry-label">SYSTEM THEME:</span>
+                <strong class="telemetry-val" id="detected-theme-name">CYBER NIGHT (OS AUTO)</strong>
+              </div>
+              <div class="telemetry-item">
+                <span class="telemetry-label">STATUS:</span>
+                <span class="telemetry-val val-green">READY_FOR_COLLABORATION</span>
+              </div>
+              <div class="telemetry-item">
+                <span class="telemetry-label">ENGINE:</span>
+                <span class="telemetry-val">CYBER_BLUE_V3.8</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subtle Scroll Down Indicator -->
+      <a href="#about" class="cyber-scroll-indicator" aria-label="Scroll to About Me">
+        <span class="scroll-track-line"></span>
+        <span class="scroll-label">ABOUT ANANYA</span>
+        <span class="scroll-chevron">▼</span>
+      </a>
+    </section>
+
+    <!-- SECTION 2: ABOUT ME SECTION WITH PROFILE & BIO -->
+    <section class="cyber-section about-section" id="about">
+      <div class="section-container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag">02 // PROFILE & DOSSIER</span>
+          <h2 class="section-title">ABOUT ME</h2>
+          <p class="section-subtitle">
+            A glimpse into my engineering journey, problem-solving mindset, and personal passions.
+          </p>
+        </div>
+
+        <!-- About Me Split Grid -->
+        <div class="about-grid">
+          <!-- Left Column: Holographic Profile Avatar Card -->
+          <div class="about-profile-card">
+            <div class="avatar-holo-frame">
+              <div class="holo-corner c-tl"></div>
+              <div class="holo-corner c-tr"></div>
+              <div class="holo-corner c-bl"></div>
+              <div class="holo-corner c-br"></div>
+              
+              <!-- Avatar Image with Cyber Scan Effect -->
+              <div class="avatar-image-container">
+                <img src="assets/images/ananya-profile.jpg" alt="Ananya - Software Engineer Profile" class="profile-avatar-img" id="profile-img">
+                <div class="avatar-scan-line"></div>
+                <div class="avatar-badge-tag">ANANYA // ENGINEER</div>
+              </div>
+            </div>
+
+            <!-- Profile Metadata Card -->
+            <div class="profile-quick-info">
+              <div class="info-row">
+                <span class="info-label">ROLE:</span>
+                <span class="info-value cyber-highlight">Software Engineer</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">LOCATION:</span>
+                <span class="info-value">India // Remote</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">AVAILABILITY:</span>
+                <span class="info-value status-badge-online"><span class="tiny-dot"></span> Open for Roles</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Bio, Highlights & Interests -->
+          <div class="about-bio-card">
+            <!-- Bio Introduction -->
+            <div class="bio-intro-block">
+              <h3 class="bio-name-heading">
+                Hi, I'm <span class="cyber-name-accent">Ananya</span>
+              </h3>
+              <p class="bio-paragraph">
+                I am a dedicated software engineer with a deep passion for building resilient, scalable software systems and elegant, intuitive web experiences. With a strong foundation in computer science and modern engineering practices, I thrive on turning complex real-world challenges into clean, maintainable code.
+              </p>
+              <p class="bio-paragraph">
+                Whether designing high-throughput backend APIs, crafting interactive cybernetic interfaces, or fine-tuning frontend performance, I prioritize clarity, security, and continuous learning in everything I build.
+              </p>
+            </div>
+
+            <!-- Career Highlights Grid -->
+            <div class="highlights-section">
+              <h4 class="sub-block-title">
+                <span class="title-icon">◈</span> KEY CAREER HIGHLIGHTS
+              </h4>
+              <div class="highlights-list">
+                <div class="highlight-item">
+                  <span class="hl-bullet">01</span>
+                  <div class="hl-content">
+                    <strong class="hl-title">Full-Stack Application Development</strong>
+                    <p class="hl-text">Engineered robust end-to-end applications leveraging modern frameworks, microservices, and reactive user interfaces.</p>
+                  </div>
+                </div>
+
+                <div class="highlight-item">
+                  <span class="hl-bullet">02</span>
+                  <div class="hl-content">
+                    <strong class="hl-title">Performance Optimization & Clean Code</strong>
+                    <p class="hl-text">Dedicated to algorithmic efficiency, clean architectural patterns, responsive layouts, and zero-compromise code maintainability.</p>
+                  </div>
+                </div>
+
+                <div class="highlight-item">
+                  <span class="hl-bullet">03</span>
+                  <div class="hl-content">
+                    <strong class="hl-title">Collaborative Problem Solving & Innovation</strong>
+                    <p class="hl-text">Active participant in hackathons, team projects, and open tech communities with a collaborative and iterative mindset.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Personal Interests & Passions -->
+            <div class="interests-section">
+              <h4 class="sub-block-title">
+                <span class="title-icon">⚡</span> PERSONAL INTERESTS & EXPLORATION
+              </h4>
+              <div class="interests-tags">
+                <span class="interest-pill"><span class="pill-dot"></span> AI & Emerging Tech</span>
+                <span class="interest-pill"><span class="pill-dot"></span> Cybernetic UI/UX</span>
+                <span class="interest-pill"><span class="pill-dot"></span> Cloud & Microservices</span>
+                <span class="interest-pill"><span class="pill-dot"></span> Open-Source Software</span>
+                <span class="interest-pill"><span class="pill-dot"></span> Problem Solving</span>
+                <span class="interest-pill"><span class="pill-dot"></span> Tech Mentorship</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 3: TECHNICAL SKILLS & CORE COMPETENCIES
+         Highlights software engineering proficiencies (Python, Frameworks, Cloud, Tools)
+         ========================================================================== -->
+    <section class="cyber-section skills-section" id="skills">
+      <div class="section-container">
+        <!-- Skills Header with Cyber Telemetry -->
+        <div class="section-header">
+          <span class="section-tag">03 // COMPETENCIES & MATRIX</span>
+          <h2 class="section-title">TECHNICAL SKILLS & PROFICIENCY</h2>
+          <p class="section-subtitle">
+            An overview of my core engineering toolkit, programming languages, backend frameworks, and cloud infrastructure tools.
+          </p>
+        </div>
+
+        <!-- Interactive Domain Filter Buttons -->
+        <!-- Allows filtering between Languages, Frameworks, Tools, and Core Engineering -->
+        <div class="skills-filter-nav" aria-label="Skill Filter Tabs">
+          <button class="filter-tab active" data-filter="all" type="button">
+            <span class="tab-icon">◈</span> ALL SKILLS
+          </button>
+          <button class="filter-tab" data-filter="languages" type="button">
+            <span class="tab-icon">🐍</span> LANGUAGES (PYTHON)
+          </button>
+          <button class="filter-tab" data-filter="frameworks" type="button">
+            <span class="tab-icon">⚡</span> FRAMEWORKS & LIBS
+          </button>
+          <button class="filter-tab" data-filter="tools" type="button">
+            <span class="tab-icon">☁️</span> CLOUD & DEVOPS
+          </button>
+          <button class="filter-tab" data-filter="concepts" type="button">
+            <span class="tab-icon">🧠</span> ARCHITECTURE
+          </button>
+        </div>
+
+        <!-- FEATURED SPOTLIGHT: PYTHON ECOSYSTEM MASTERY -->
+        <!-- Explicitly showcases deep Python programming competency -->
+        <div class="python-spotlight-card" data-category="languages">
+          <div class="spotlight-header">
+            <div class="spotlight-title-group">
+              <span class="spotlight-badge"><span class="badge-dot"></span> PRIMARY SPECIALIZATION</span>
+              <h3 class="spotlight-title">Python Engineering & Ecosystem</h3>
+            </div>
+            <div class="spotlight-score-tag">
+              <span class="score-label">PROFICIENCY</span>
+              <span class="score-number cyber-cyan-text">95%</span>
+            </div>
+          </div>
+          
+          <p class="spotlight-description">
+            High-level expertise in Python for backend API development, asynchronous programming (<code>asyncio</code>), automated testing, clean architectural patterns, and computational data workflows.
+          </p>
+
+          <!-- Python Competency Progress Bar with Laser Fill -->
+          <div class="skill-gauge-wrapper">
+            <div class="gauge-meta">
+              <span class="gauge-label">PYTHON CORE, FASTAPI & BACKEND ARCHITECTURE</span>
+              <span class="gauge-percent">95%</span>
+            </div>
+            <div class="gauge-track">
+              <div class="gauge-laser-fill" style="width: 95%;"></div>
+            </div>
+          </div>
+
+          <!-- Associated Python Tools & Sub-competencies -->
+          <div class="spotlight-tags">
+            <span class="tech-chip"><span class="chip-icon">⚡</span> FastAPI</span>
+            <span class="tech-chip"><span class="chip-icon">🌐</span> Django / Flask</span>
+            <span class="tech-chip"><span class="chip-icon">🔄</span> AsyncIO</span>
+            <span class="tech-chip"><span class="chip-icon">🧪</span> PyTest</span>
+            <span class="tech-chip"><span class="chip-icon">📊</span> Pandas / NumPy</span>
+            <span class="tech-chip"><span class="chip-icon">🗄️</span> SQLAlchemy / ORM</span>
+          </div>
+        </div>
+
+        <!-- COMPREHENSIVE SKILLS MATRIX GRID -->
+        <div class="skills-matrix-grid">
+          
+          <!-- CATEGORY 1: PROGRAMMING LANGUAGES -->
+          <!-- Represents core language fundamentals with quantitative progress indicators -->
+          <div class="skill-category-card" data-category="languages">
+            <div class="category-header">
+              <div class="category-icon-box">🐍</div>
+              <div class="category-title-wrap">
+                <span class="category-index">// DOMAIN_01</span>
+                <h3 class="category-name">Programming Languages</h3>
+              </div>
+            </div>
+
+            <div class="skill-items-list">
+              <!-- Skill: Python -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Python (FastAPI, Core, Async)</span>
+                  <span class="skill-pct cyber-cyan-text">95%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 95%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: JavaScript / TypeScript -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">JavaScript / TypeScript</span>
+                  <span class="skill-pct cyber-cyan-text">90%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: SQL / Relational -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">SQL (PostgreSQL, MySQL)</span>
+                  <span class="skill-pct cyber-cyan-text">88%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 88%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: C / C++ -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">C / C++ (Algorithms & Systems)</span>
+                  <span class="skill-pct cyber-cyan-text">82%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 82%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CATEGORY 2: FRAMEWORKS & LIBRARIES -->
+          <!-- Represents frontend & backend frameworks for building robust applications -->
+          <div class="skill-category-card" data-category="frameworks">
+            <div class="category-header">
+              <div class="category-icon-box">⚡</div>
+              <div class="category-title-wrap">
+                <span class="category-index">// DOMAIN_02</span>
+                <h3 class="category-name">Frameworks & Libraries</h3>
+              </div>
+            </div>
+
+            <div class="skill-items-list">
+              <!-- Skill: FastAPI / Django -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">FastAPI, Flask & Django</span>
+                  <span class="skill-pct cyber-cyan-text">92%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 92%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: React & Next.js -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">React.js & Next.js</span>
+                  <span class="skill-pct cyber-cyan-text">88%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 88%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: Node.js & Express -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Node.js & Express REST APIs</span>
+                  <span class="skill-pct cyber-cyan-text">85%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 85%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: CSS3 / Design Systems -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Vanilla CSS3 & Responsive UI</span>
+                  <span class="skill-pct cyber-cyan-text">95%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 95%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CATEGORY 3: CLOUD, DEVOPS & TOOLS -->
+          <!-- Represents modern developer tooling, containerization, and cloud deployment -->
+          <div class="skill-category-card" data-category="tools">
+            <div class="category-header">
+              <div class="category-icon-box">☁️</div>
+              <div class="category-title-wrap">
+                <span class="category-index">// DOMAIN_03</span>
+                <h3 class="category-name">Cloud, DevOps & Tools</h3>
+              </div>
+            </div>
+
+            <div class="skill-items-list">
+              <!-- Skill: Git & Version Control -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Git, GitHub & CI/CD Pipelines</span>
+                  <span class="skill-pct cyber-cyan-text">92%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 92%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: Docker & Containers -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Docker & Containerization</span>
+                  <span class="skill-pct cyber-cyan-text">85%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 85%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: Linux & Scripting -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Linux, Bash & Shell Scripting</span>
+                  <span class="skill-pct cyber-cyan-text">88%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 88%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: AWS / Cloud Infra -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">AWS Services & Cloud Hosting</span>
+                  <span class="skill-pct cyber-cyan-text">80%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 80%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CATEGORY 4: CORE ARCHITECTURE & METHODOLOGIES -->
+          <!-- Represents computer science foundations and system engineering practices -->
+          <div class="skill-category-card" data-category="concepts">
+            <div class="category-header">
+              <div class="category-icon-box">🧠</div>
+              <div class="category-title-wrap">
+                <span class="category-index">// DOMAIN_04</span>
+                <h3 class="category-name">Architecture & Paradigms</h3>
+              </div>
+            </div>
+
+            <div class="skill-items-list">
+              <!-- Skill: REST & GraphQL API Design -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">RESTful & GraphQL API Design</span>
+                  <span class="skill-pct cyber-cyan-text">94%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 94%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: Data Structures & Algorithms -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Data Structures & Algorithms</span>
+                  <span class="skill-pct cyber-cyan-text">90%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: System Architecture -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Scalable System Architecture</span>
+                  <span class="skill-pct cyber-cyan-text">86%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 86%;"></div>
+                </div>
+              </div>
+
+              <!-- Skill: Web Security & Auth -->
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Security, JWT & OAuth2 Auth</span>
+                  <span class="skill-pct cyber-cyan-text">88%</span>
+                </div>
+                <div class="skill-bar-frame">
+                  <div class="skill-bar-fill" style="width: 88%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: CONTACT SECTION -->
+    <section class="cyber-section" id="contact">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">04 // TRANSMISSION</span>
+          <h2 class="section-title">GET IN TOUCH</h2>
+          <p class="section-subtitle">
+            Have a project in mind, an exciting role, or just want to connect? Let's build something extraordinary together.
+          </p>
+        </div>
+
+        <div class="contact-card-box">
+          <div class="contact-details">
+            <div class="contact-info-item">
+              <span class="contact-icon">✉</span>
+              <div class="contact-text-group">
+                <span class="contact-label">EMAIL:</span>
+                <a href="mailto:ananya.engineer@example.com" class="contact-link">ananya.engineer@example.com</a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-icon">◈</span>
+              <div class="contact-text-group">
+                <span class="contact-label">GITHUB & PROFILES:</span>
+                <span class="contact-link">github.com/ananya-dev</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-cta">
+            <a href="mailto:ananya.engineer@example.com" class="cyber-btn primary-btn">
+              <span class="btn-icon">⚡</span>
+              <span class="btn-caption">SEND TRANSMISSION</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Cyber Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
